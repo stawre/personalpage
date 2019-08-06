@@ -38,9 +38,9 @@ class NavBar extends Component {
           </Tab>
           <Tab eventKey="profile" title="Profile">
           </Tab>
-          <Tab eventKey="contact" title="Contact">
+          {/* <Tab eventKey="contact" title="Contact">
             {console.log("Hello")}
-          </Tab>
+          </Tab> */}
           <Tab eventKey="resume" title="Resume/CV">
           </Tab>
         </Tabs>
