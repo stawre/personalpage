@@ -15,10 +15,9 @@ class Navigation extends Component {
                 }}
             >
                 {   this.props.active !== "home"
-                    ? <Navbar.Brand>Shreyas Tawre</Navbar.Brand>
+                    ? <Navbar.Brand href="/">Shreyas Tawre</Navbar.Brand>
                     : null
                 }
-                {/* <Navbar.Brand>Shreyas Tawre</Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
