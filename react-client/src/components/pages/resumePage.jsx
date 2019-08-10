@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import Figure from 'react-bootstrap/Figure'
 import FigureImage from 'react-bootstrap/FigureImage'
-import Tooltip from 'react-bootstrap/Tooltip';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import NavBar from '../headerComponents/navBar';
+import Navigation from '../headerComponents/navBar1';
 
 class ResumePage extends Component {
     render() {
         return (
             <div>
-                <NavBar active="resume"></NavBar>
+                <Navigation active="resume" />
                 <div 
                     style={{
                         display: "flex",

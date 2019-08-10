@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import Figure from 'react-bootstrap/Figure'
 import FigureImage from 'react-bootstrap/FigureImage'
-import Tooltip from 'react-bootstrap/Tooltip';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import NavBar from '../headerComponents/navBar';
+import Navigation from '../headerComponents/navBar1';
 
 class ProfilePage extends Component {
     render() {
         return (
             <div>
                 <div>
-                    <NavBar active="profile" />
+                    <Navigation active="profile"/>
                 </div>
                 <center>
                     <div 

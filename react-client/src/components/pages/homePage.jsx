@@ -3,14 +3,14 @@ import Figure from 'react-bootstrap/Figure';
 import FigureImage from 'react-bootstrap/FigureImage';
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import NavBar from '../headerComponents/navBar';
+import Navigation from '../headerComponents/navBar1';
 
 class HomePage extends Component {
   render() {
     return (
       <div>
         <div>
-          <NavBar active="home"/>
+          <Navigation active="home"/>
         </div>
         <div 
           style={{
@@ -42,7 +42,7 @@ class HomePage extends Component {
             display: "flex",
             justifyContent: "center"
           }}>
-          <h5 style={{fontFamily: "palatino", color: "gray"}}>
+          <h5 style={{fontFamily: "palatino", color: "gray", marginLeft: "1rem", marginRight: "1rem"}}>
             <center>
             Computer Science student at The University of Texas at Austin
             </center>
