@@ -24,13 +24,14 @@ class ProfilePage extends Component {
                         </h2>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "fit-content", 
+                            width: "40rem", 
                             margin: "2rem", 
                             alignSelf: "center", 
-                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)"
+                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
+                            borderRadius: "15px"
                             }}
                         >
-                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem"}}>
+                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
                             Tipster
                             </h4>
                             <p 
@@ -52,13 +53,14 @@ class ProfilePage extends Component {
                         </Card>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "fit-content", 
+                            width: "40rem", 
                             margin: "2rem", 
                             alignSelf: "center", 
-                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)"
+                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
+                            borderRadius: "15px"
                             }}
                         >
-                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem"}}>
+                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
                             Twitter Client
                             </h4>
                             <p 
@@ -80,13 +82,14 @@ class ProfilePage extends Component {
                         </Card>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "fit-content", 
+                            width: "40rem", 
                             margin: "2rem", 
                             alignSelf: "center", 
-                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)"
+                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
+                            borderRadius: "15px"
                             }}
                         >
-                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem"}}>
+                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
                                 Flix
                             </h4>
                             <p 
@@ -108,13 +111,14 @@ class ProfilePage extends Component {
                         </Card>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "fit-content", 
+                            width: "40rem", 
                             margin: "2rem", 
                             alignSelf: "center", 
-                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)"
+                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
+                            borderRadius: "15px"
                             }}
                         >
-                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem"}}>
+                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
                                 Yelp Client
                             </h4>
                             <p 
@@ -136,13 +140,14 @@ class ProfilePage extends Component {
                         </Card>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "fit-content", 
+                            width: "40rem", 
                             margin: "2rem", 
                             alignSelf: "center", 
-                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)"
+                            boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
+                            borderRadius: "15px"
                             }}
                         >
-                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem"}}>
+                            <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
                                 Github Client
                             </h4>
                             <p 

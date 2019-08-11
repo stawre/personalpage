@@ -19,7 +19,8 @@ class HomePage extends Component {
               width: "fit-content", 
               margin: "2rem", 
               alignSelf: "center", 
-              boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)"
+              boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
+              borderRadius: "15px"
             }}
           >
             <div 

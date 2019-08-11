@@ -10,6 +10,7 @@ class Navigation extends Component {
                     // display: "flex",
                     margin: "0.5rem",
                     fontFamily: "palatino",
+                    borderRadius: "8px"
                     // flexDirection: "row",
                     // justifyContent: "flex-end"
                 }}
