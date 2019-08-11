@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Figure from 'react-bootstrap/Figure'
 import FigureImage from 'react-bootstrap/FigureImage'
-import Navigation from '../headerComponents/navBar1';
+import Navigation from '../headerComponents/navBar';
 
 class ResumePage extends Component {
     render() {

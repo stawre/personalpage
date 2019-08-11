@@ -4,7 +4,7 @@ import FigureImage from 'react-bootstrap/FigureImage';
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Card from 'react-bootstrap/Card'
-import Navigation from '../headerComponents/navBar1';
+import Navigation from '../headerComponents/navBar';
 
 class HomePage extends Component {
   render() {

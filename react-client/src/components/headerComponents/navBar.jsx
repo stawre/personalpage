@@ -1,51 +1,34 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Tabs from 'react-bootstrap/Tabs'
-import Tab from 'react-bootstrap/Tab'
-class NavBar extends Component {
-  constructor(props) {
-    super(props);
-    this.redirect = this.redirect.bind(this);
-  }
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
-  redirect(key) {
-    if (key === "home") {
-      window.location.assign("/");
+class Navigation extends Component {
+    render() {
+        return(
+            <Navbar bg="light" expand="lg"
+                style={{
+                    // display: "flex",
+                    margin: "0.5rem",
+                    fontFamily: "palatino",
+                    borderRadius: "8px"
+                    // flexDirection: "row",
+                    // justifyContent: "flex-end"
+                }}
+            >
+                {   this.props.active !== "home"
+                    ? <Navbar.Brand href="/">Shreyas Tawre</Navbar.Brand>
+                    : null
+                }
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/profile">Portfolio</Nav.Link>
+                        <Nav.Link href="/resume">Resume/CV</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+        )
     }
-    if (key === "profile") {
-      window.location.assign("/profile");
-    }
-    if (key === "contact") {
-      window.location.assign("/contact");
-    }
-    if (key === "resume") {
-      window.location.assign("/resume");
-    }
-  }
-
-  render() {
-    return (
-      <div>
-        <Tabs defaultActiveKey={this.props.active} id="uncontrolled-tab-example" onSelect={this.redirect}
-          style={{
-            display: "flex",
-            justifyContent: "flex-end",
-            marginTop: "0.5rem",
-            fontFamily: "palatino"
-          }}
-        >
-          <Tab eventKey="home" title="Home">
-          </Tab>
-          <Tab eventKey="profile" title="Profile">
-          </Tab>
-          {/* <Tab eventKey="contact" title="Contact">
-            {console.log("Hello")}
-          </Tab> */}
-          <Tab eventKey="resume" title="Resume/CV">
-          </Tab>
-        </Tabs>
-      </div>
-    )
-  }
 }
-export default NavBar;
+export default Navigation;

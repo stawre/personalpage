@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Figure from 'react-bootstrap/Figure'
 import FigureImage from 'react-bootstrap/FigureImage'
 import Card from 'react-bootstrap/Card'
-import Navigation from '../headerComponents/navBar1';
+import Navigation from '../headerComponents/navBar';
 
 class ProfilePage extends Component {
     render() {
@@ -24,7 +24,7 @@ class ProfilePage extends Component {
                         </h2>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "40rem", 
+                            width: "max-content", 
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
@@ -39,7 +39,8 @@ class ProfilePage extends Component {
                                     fontFamily: "palatino",
                                     color: "gray",
                                     margin: "1rem",
-                                    marginTop: "0rem"
+                                    marginTop: "0rem",
+                                    width: "22rem"
                                 }}
                             >
                                 The first iOS application I ever built - a tip calculator.
@@ -53,7 +54,7 @@ class ProfilePage extends Component {
                         </Card>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "40rem", 
+                            width: "max-content", 
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
@@ -68,7 +69,8 @@ class ProfilePage extends Component {
                                     fontFamily: "palatino",
                                     color: "gray",
                                     margin: "1rem",
-                                    marginTop: "0rem"
+                                    marginTop: "0rem",
+                                    width: "22rem"
                                 }}
                             >
                                 My first experiment using a third party API - a Twitter client.
@@ -82,7 +84,7 @@ class ProfilePage extends Component {
                         </Card>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "40rem", 
+                            width: "max-content", 
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
@@ -97,7 +99,8 @@ class ProfilePage extends Component {
                                     fontFamily: "palatino",
                                     color: "gray",
                                     margin: "1rem",
-                                    marginTop: "0rem"
+                                    marginTop: "0rem",
+                                    width: "22rem"
                                 }}
                             >
                                 An app that uses the MovieDB api.
@@ -111,7 +114,7 @@ class ProfilePage extends Component {
                         </Card>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "40rem", 
+                            width: "max-content", 
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
@@ -126,7 +129,8 @@ class ProfilePage extends Component {
                                     fontFamily: "palatino",
                                     color: "gray",
                                     margin: "1rem",
-                                    marginTop: "0rem"
+                                    marginTop: "0rem",
+                                    width: "22rem"
                                 }}
                             >
                                 A complex application that uses multiple APIs - the Yelp Api and Mapkit.
@@ -140,7 +144,7 @@ class ProfilePage extends Component {
                         </Card>
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
-                            width: "40rem", 
+                            width: "max-content", 
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
@@ -155,7 +159,8 @@ class ProfilePage extends Component {
                                     fontFamily: "palatino",
                                     color: "gray",
                                     margin: "1rem",
-                                    marginTop: "0rem"
+                                    marginTop: "0rem",
+                                    width: "22rem"
                                 }}
                             >
                                 A Github repositories browser that uses the Github API.
