@@ -49,7 +49,11 @@ class ProfilePage extends Component {
                             <Figure id="tipster">
                                 <FigureImage
                                     src="http://i.imgur.com/iSsoRD2.gif"
-                                    style={{margin: "1rem"}}
+                                    style={{
+                                        margin: "1rem",
+                                        maxWidth: "100%",
+                                        maxHeight: "100%"
+                                    }}
                                 />
                             </Figure>
                         </Card>
@@ -80,7 +84,11 @@ class ProfilePage extends Component {
                             <Figure id="twitter">
                                 <FigureImage
                                     src="http://imgur.com/3ly6EKN.gif"
-                                    style={{margin: "1rem"}}
+                                    style={{
+                                        margin: "1rem",
+                                        maxWidth: "100%",
+                                        maxHeight: "100%"
+                                    }}
                                 />
                             </Figure>
                         </Card>
@@ -111,7 +119,11 @@ class ProfilePage extends Component {
                             <Figure id="movieviewer">
                                 <FigureImage
                                     src="http://imgur.com/VVvDbM4.gif"
-                                    style={{margin: "1rem"}}
+                                    style={{
+                                        margin: "1rem",
+                                        maxWidth: "100%",
+                                        maxHeight: "100%"
+                                    }}
                                 />
                             </Figure>
                         </Card>
@@ -142,7 +154,11 @@ class ProfilePage extends Component {
                             <Figure id="yelp">
                                 <FigureImage
                                     src="http://i.imgur.com/U9LW1Og.gif"
-                                    style={{margin: "1rem"}}
+                                    style={{
+                                        margin: "1rem",
+                                        maxWidth: "100%",
+                                        maxHeight: "100%"
+                                    }}
                                 />
                             </Figure>
                         </Card>
@@ -173,7 +189,11 @@ class ProfilePage extends Component {
                             <Figure id="github">
                                 <FigureImage
                                     src="http://imgur.com/ITdu5Ef.gif"
-                                    style={{margin: "1rem"}}
+                                    style={{
+                                        margin: "1rem",
+                                        maxWidth: "100%",
+                                        maxHeight: "100%"
+                                    }}
                                 />
                             </Figure>
                         </Card>
