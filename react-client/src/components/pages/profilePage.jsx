@@ -51,8 +51,8 @@ class ProfilePage extends Component {
                                     src="http://i.imgur.com/iSsoRD2.gif"
                                     style={{
                                         margin: "1rem",
-                                        maxWidth: "100%",
-                                        maxHeight: "100%"
+                                        maxWidth: "90%",
+                                        maxHeight: "90%"
                                     }}
                                 />
                             </Figure>
@@ -86,8 +86,8 @@ class ProfilePage extends Component {
                                     src="http://imgur.com/3ly6EKN.gif"
                                     style={{
                                         margin: "1rem",
-                                        maxWidth: "100%",
-                                        maxHeight: "100%"
+                                        maxWidth: "90%",
+                                        maxHeight: "90%"
                                     }}
                                 />
                             </Figure>
@@ -121,8 +121,8 @@ class ProfilePage extends Component {
                                     src="http://imgur.com/VVvDbM4.gif"
                                     style={{
                                         margin: "1rem",
-                                        maxWidth: "100%",
-                                        maxHeight: "100%"
+                                        maxWidth: "90%",
+                                        maxHeight: "90%"
                                     }}
                                 />
                             </Figure>
@@ -156,8 +156,8 @@ class ProfilePage extends Component {
                                     src="http://i.imgur.com/U9LW1Og.gif"
                                     style={{
                                         margin: "1rem",
-                                        maxWidth: "100%",
-                                        maxHeight: "100%"
+                                        maxWidth: "90%",
+                                        maxHeight: "90%"
                                     }}
                                 />
                             </Figure>
@@ -191,8 +191,8 @@ class ProfilePage extends Component {
                                     src="http://imgur.com/ITdu5Ef.gif"
                                     style={{
                                         margin: "1rem",
-                                        maxWidth: "100%",
-                                        maxHeight: "100%"
+                                        maxWidth: "90%",
+                                        maxHeight: "90%"
                                     }}
                                 />
                             </Figure>
