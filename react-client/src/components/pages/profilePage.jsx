@@ -28,7 +28,8 @@ class ProfilePage extends Component {
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
-                            borderRadius: "15px"
+                            borderRadius: "15px",
+                            maxWidth: "90%"
                             }}
                         >
                             <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
@@ -58,7 +59,8 @@ class ProfilePage extends Component {
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
-                            borderRadius: "15px"
+                            borderRadius: "15px",
+                            maxWidth: "90%"
                             }}
                         >
                             <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
@@ -88,7 +90,8 @@ class ProfilePage extends Component {
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
-                            borderRadius: "15px"
+                            borderRadius: "15px",
+                            maxWidth: "90%"
                             }}
                         >
                             <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
@@ -118,7 +121,8 @@ class ProfilePage extends Component {
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
-                            borderRadius: "15px"
+                            borderRadius: "15px",
+                            maxWidth: "90%"
                             }}
                         >
                             <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>
@@ -148,7 +152,8 @@ class ProfilePage extends Component {
                             margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
-                            borderRadius: "15px"
+                            borderRadius: "15px",
+                            maxWidth: "90%"
                             }}
                         >
                             <h4 style={{fontFamily: "palatino", color: "black", margin: "1rem", marginTop: "2rem"}}>

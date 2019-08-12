@@ -90,7 +90,9 @@ class HomePage extends Component {
             <div 
                 style={{
                     display: "flex",
-                    justifyContent: "center"
+                    justifyContent: "center",
+                    flexWrap: "wrap",
+                    margin: "1rem"
                 }}
             >
                 <OverlayTrigger placement="bottom" 
