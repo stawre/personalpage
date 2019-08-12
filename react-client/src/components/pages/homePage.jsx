@@ -17,7 +17,7 @@ class HomePage extends Component {
           <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
             style={{
               width: "fit-content", 
-              margin: "2rem", 
+              margin: "1rem", 
               alignSelf: "center", 
               boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
               borderRadius: "15px"
@@ -172,8 +172,9 @@ class HomePage extends Component {
                   fontFamily: "palatino",
                   color: "gray",
                   display: "flex",
+                  flexWrap: "wrap",
                   justifyContent: "center",
-                  marginTop: "1rem"
+                  margin: "1rem"
                 }}
               >
                 This website was built using the following tools
