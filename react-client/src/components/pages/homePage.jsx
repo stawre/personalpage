@@ -105,7 +105,7 @@ class HomePage extends Component {
                     <a href="https://github.com/stawre">
                     <Figure>
                         <FigureImage width={50} height={50} alt="30x30" src="https://i.imgur.com/vdU8YNT.png"
-                            style={{margin: "1rem"}} />
+                            style={{margin: "0.5rem"}} />
                     </Figure>
                     </a>
                 </OverlayTrigger>
@@ -119,7 +119,7 @@ class HomePage extends Component {
                     <a href="https://linkedin.com/in/stawre">
                     <Figure>
                         <FigureImage width={40} height={40} alt="60x60" src="https://imgur.com/XE7rHdi.png"
-                            style={{margin: "1rem"}} />
+                            style={{margin: "0.7rem"}} />
                     </Figure>
                     </a>
                 </OverlayTrigger>
@@ -147,7 +147,7 @@ class HomePage extends Component {
                     <a href="https://twitter.com/_itsmeshreyas_">
                     <Figure>
                         <FigureImage width={40} height={40} alt="70x90" src="https://imgur.com/4dF48xQ.png"
-                            style={{margin: "1rem"}} />
+                            style={{margin: "0.7rem"}} />
                     </Figure>
                     </a>
                 </OverlayTrigger>
@@ -161,7 +161,7 @@ class HomePage extends Component {
                     <a href="mailto:tawre.shreyas@gmail.com">
                     <Figure>
                         <FigureImage width={50} height={50} alt="70x90" src="https://imgur.com/07mwGoi.png"
-                            style={{margin: "1rem"}} />
+                            style={{margin: "0.7rem"}} />
                     </Figure>
                     </a>
                 </OverlayTrigger>
