@@ -25,7 +25,7 @@ class ProfilePage extends Component {
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
                             width: "max-content", 
-                            margin: "1rem", 
+                            margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
                             borderRadius: "15px",
@@ -60,7 +60,7 @@ class ProfilePage extends Component {
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
                             width: "max-content", 
-                            margin: "1rem", 
+                            margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
                             borderRadius: "15px",
@@ -95,7 +95,7 @@ class ProfilePage extends Component {
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
                             width: "max-content", 
-                            margin: "1rem", 
+                            margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
                             borderRadius: "15px",
@@ -130,7 +130,7 @@ class ProfilePage extends Component {
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
                             width: "max-content", 
-                            margin: "1rem", 
+                            margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
                             borderRadius: "15px",
@@ -165,7 +165,7 @@ class ProfilePage extends Component {
                         <Card class="shadow-lg p-3 mb-5 bg-white rounded" 
                             style={{
                             width: "max-content", 
-                            margin: "1rem", 
+                            margin: "2rem", 
                             alignSelf: "center", 
                             boxShadow: "0 0 25px hsla(0, 0%, 0%, 0.40)",
                             borderRadius: "15px",

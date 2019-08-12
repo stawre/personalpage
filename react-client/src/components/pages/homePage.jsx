@@ -132,8 +132,8 @@ class HomePage extends Component {
                 >
                     <a href="https://stackoverflow.com/users/10074332/stawre">
                     <Figure>
-                        <FigureImage width={200} height={100} alt="60x60" src="https://imgur.com/Iam5nKn.png"
-                            style={{margin: "1rem"}} />
+                        <FigureImage width={45} height={45} alt="60x60" src="https://imgur.com/Em33GS3.png"
+                            style={{margin: "0.7rem"}} />
                     </Figure>
                     </a>
                 </OverlayTrigger>
